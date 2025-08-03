@@ -1,0 +1,84 @@
+
+/*Reset page */
+body, html {
+    margin: 0;
+    height: 100%;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Design Principal Content Container*/
+
+.titulo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ .cep-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 5px 10px 20px rgba(36, 36, 36, 0.2);
+ }
+
+ .buscagem-cep {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+ }
+
+ .buscagem-cep input {
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border: 2px solid grey;
+ }
+
+ .buscagem-cep button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(19, 114, 255);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+
+ .buscagem-cep button:hover {
+    background-color: rgb(9, 95, 224);
+ }
+
+ .cep-response-container {
+    margin-top: 20px;
+ }
+
+ .data-cep ul {
+    list-style-type: none;
+    padding: 0;
+ }
+
+ .data-cep ul li {
+    background-color: #e6e6e6;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    font-size: small;
+ }
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size:small;
+    color: grey;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer:hover {
+    color: rgb(9, 95, 224);
+}
